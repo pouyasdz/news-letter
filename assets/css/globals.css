@@ -16,3 +16,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html, body{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--charcoal-grey);
+    font-family: "roboto", sans-serif;
+}
+
+input, button {
+    border: none;
+    outline: none;
+}
+
+ul{
+    list-style: none;
+}
