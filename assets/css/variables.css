@@ -1,0 +1,43 @@
+:root{
+    --primary: hsl(4, 100%, 67%);
+    --dark-slate-grey:hsl(234, 29%, 20%);
+    --charcoal-grey:hsl(235, 18%, 26%);
+    --grey:hsl(231, 7%, 60%);
+    --white:hsl(0, 0%, 100%);
+}
+
+
+.text-primary{
+    color: var(--primary);
+}
+.bg-primary{
+    background-color: var(--primary);
+}
+
+.text-dark-slate{
+    color: var(--dark-slate-grey);
+}
+.bg-dark-slate{
+    background-color: var(--dark-slate-grey);
+}
+
+.text-charcoal-grey {
+    color: var(--charcoal-grey);
+}
+.bg-charcoal-grey{
+    background-color: var(--charcoal-grey);
+}
+
+.text-grey{
+    color: var(--grey);
+}
+.bg-grey{
+    background-color: var(--grey);
+}
+
+.text-white{
+    color: var(--white);
+}
+.bg-white{
+    background-color: var(--white);
+}
