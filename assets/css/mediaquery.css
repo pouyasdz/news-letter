@@ -1,9 +1,34 @@
-@media only screen and (min-width:375px){
-    
-}
-
 @media only screen and (min-width:800px){
-    
+    body {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center;
+    }
+    main {
+        width: 70% !important;
+        height: 80% !important;
+        border-radius: 25px;
+        padding: 25px;
+        flex-direction: row-reverse !important;
+        justify-content: space-between !important;
+    }
+    main .cover {
+        width: 45% !important;
+        height: 100% !important;
+        background-image: url(../images/illustration-sign-up-desktop.svg) !important;
+        border-radius: 22px !important;
+    }
+    main .content {
+        width: 45% !important;
+        height: 100% !important;
+        justify-content: space-evenly !important;
+    }
+    main .content h1 {
+        font-size: 60px !important;
+    }
+    main .content button {
+        height: 55px !important;
+    }
 }
 
 @media only screen and (min-width:1440px){
